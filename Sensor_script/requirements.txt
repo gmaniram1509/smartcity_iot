@@ -1,0 +1,5 @@
+# Smart City — Sensor Layer Dependencies
+# Install with: pip install -r requirements.txt
+
+requests>=2.31.0        # HTTP POST to fog node
+paho-mqtt>=1.6.1        # MQTT publishing (optional — only if USE_HTTP=False)
